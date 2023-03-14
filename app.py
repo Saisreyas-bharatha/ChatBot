@@ -59,7 +59,7 @@ def getResponse(ints, intents_json):
             result = random.choice(i['responses'])
             break
     return result
-
+   
 
 # def getResponse(ints, intents_json, threshold=0.5):
 #     tag = ints[0]['intent']
